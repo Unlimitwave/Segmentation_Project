@@ -1,0 +1,8 @@
+_background_
+Baresoil
+Factory
+Farmland
+Residential or Office Building
+Road
+Vegetation
+Water
