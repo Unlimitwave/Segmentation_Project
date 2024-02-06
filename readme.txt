@@ -1,7 +1,7 @@
 
 
 
-一、VOC示例数据集加载-图像分割训练模型步骤
+#一、VOC示例数据集加载-图像分割训练模型步骤
 1.数据集分割和数据集转化成VOC格式脚本在dataset文件夹里面，通过data_toVOCformat.py 脚本 完成
 
 2.数据加载Dataloader在dataset文件夹里面, 已包含数据处理，裁剪，旋转功能，通过General_dataloader.py 脚本 完成
@@ -15,7 +15,7 @@
 
 ****************************************************************************************************************
 
-二、GIS真实数据集加载（png格式）-图像分割训练模型步骤
+#二、GIS真实数据集加载（png格式）-图像分割训练模型步骤
 
 1.PNG图片数据处理，将大张的Image.PNG图片和标签.png图片分割成小张图片，分割方法有网格法pngdata_crop_regulargrid.py，
 滑动窗口方法pngdata_crop_slidewindow.py， 脚本在dataset下的Dataprocesstool文件夹里面
